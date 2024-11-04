@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
 
-function App() {
+import React from 'react';
+import ReminderForm from './ReminderForm';
+import './App.css';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '20px' }}>
+      <h1 className='h1'>Gym Fee Reminder Application</h1>
+      <ReminderForm />
     </div>
   );
-}
+};
 
 export default App;

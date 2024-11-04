@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h1{
+  color: #bbbdbd;
+  font-family: 'Lucida Handwriting', cursive;
+  text-align: center;
+  text-shadow: 11px 11px 9px rgba(8, 0, 0, 0.96);
+  
+  font-size:60px;
+  
 }

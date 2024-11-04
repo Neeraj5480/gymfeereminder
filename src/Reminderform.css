@@ -1,0 +1,115 @@
+/* ReminderForm.css */
+
+.container {
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #81818a27;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(4, 3, 3, 0.385);
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #fffcfc;
+    font-size: 24px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+    color: #f8f7f7;
+    font-weight: bold;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #f2f4f6;
+}
+
+.button {
+    padding: 12px;
+    background-color: #f4f6f8;
+    font-family: cursive;
+    color: #090808;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px; /* Adjusted for smaller screens */
+    }
+
+    .title {
+        font-size: 20px; /* Smaller title on mobile */
+    }
+
+    .input {
+        font-size: 14px; /* Smaller input fields */
+    }
+
+    .button {
+        font-size: 14px; /* Smaller button */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 18px; /* Even smaller title on very small screens */
+    }
+
+    .input {
+        font-size: 12px; /* Smaller input fields */
+    }
+
+    .button {
+        font-size: 12px; /* Smaller button */
+    }
+
+    .response {
+        font-size: 14px; /* Smaller response message */
+    }
+}
